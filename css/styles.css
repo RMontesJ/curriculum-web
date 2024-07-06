@@ -1,3 +1,10 @@
+/* 
+*{
+    padding: 0;
+    margin: 0;
+} */
+
+
 .pagina {
     display: flex;
     flex-direction: column;
@@ -14,11 +21,13 @@
     align-items: center;
     justify-content: space-around;
     background-color: chartreuse;
+    margin-bottom: 100px;
 }
 
-.rafa {
+.contacto{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -29,22 +38,30 @@
     align-items: center;
 }
 
+.rafa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .telefono {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-
 }
 
 .correo {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .github {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -68,6 +85,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .tienda {
@@ -75,7 +93,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-
+    margin: 50px;
 }
 
 .tienda h1 {
@@ -114,7 +132,24 @@
     justify-content: center;
 }
 
-.html {
+.proyecto-solidario-metaverso{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.metaverso{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+}
+
+.metaverso p{
+    margin: 50px;
 }
