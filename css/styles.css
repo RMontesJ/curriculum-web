@@ -1,0 +1,50 @@
+.pagina{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.personal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: chartreuse;
+}
+
+.telefono{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.correo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.github{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.portfolio-tienda-online{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.tienda h1{
+    text-align: center;
+}
+
+.tienda{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+text-align: center;
+}
