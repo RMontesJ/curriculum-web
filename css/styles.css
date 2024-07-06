@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    font-family: 'Franklin Gothic Medium';
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .personal {
@@ -14,13 +16,13 @@
     background-color: chartreuse;
 }
 
-.rafa{
+.rafa {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.presentacion{
+.presentacion {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -46,7 +48,7 @@
     align-items: center;
 }
 
-.boton-perfil-github{
+.boton-perfil-github {
     width: 100px;
     display: inline-block;
     padding: 10px 20px;
@@ -112,7 +114,7 @@
     justify-content: center;
 }
 
-.html{
+.html {
     display: flex;
     flex-direction: column;
 }
