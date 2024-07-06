@@ -1,10 +1,11 @@
-.pagina{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
+.pagina {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium';
 }
 
-.personal{
+.personal {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -13,38 +14,105 @@ flex-wrap: wrap;
     background-color: chartreuse;
 }
 
-.telefono{
+.rafa{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    
-}
-
-.correo{
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
-.github{
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.telefono {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.correo {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.portfolio-tienda-online{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
+.github {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.tienda h1{
+.boton-perfil-github{
+    width: 100px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+.portfolio-tienda-online {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.tienda {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.tienda h1 {
     text-align: center;
 }
 
-.tienda{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-text-align: center;
+.boton-tienda-online {
+    width: 100px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+.tecnologias-tienda-online {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.tecnologias-tienda-online h1 {
+    text-align: center;
+}
+
+.lenguajes-tienda-online {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.html{
+    display: flex;
+    flex-direction: column;
 }
