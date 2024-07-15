@@ -13,7 +13,7 @@
     font-weight: 400;
     font-style: normal;
 }
-
+/* Sección de datos personales */
 .personal {
     display: flex;
     flex-direction: row;
@@ -24,13 +24,6 @@
    
 }
 
-.contacto{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
 .presentacion {
     display: flex;
     flex-direction: column;
@@ -38,9 +31,10 @@
     align-items: center;
 }
 
-.rafa {
+.contacto{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -59,6 +53,13 @@
 }
 
 .github {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.instagram{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
