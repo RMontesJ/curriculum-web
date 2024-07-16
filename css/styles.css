@@ -16,7 +16,7 @@
 /* Sección de datos personales */
 .personal {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
@@ -79,6 +79,7 @@
     border: none;
     border-radius: 5px;
     margin-top: 80px;
+    margin-bottom: 70px;
 }
 
 .portfolio-tienda-online {
