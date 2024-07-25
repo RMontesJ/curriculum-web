@@ -77,8 +77,24 @@
     background-color: #007bff;
     border: none;
     border-radius: 5px;
-    margin-top: 80px;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.boton-descargar-curriculum{
+    width: 100px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    
+    
 }
 
 .portfolio-tienda-online {
