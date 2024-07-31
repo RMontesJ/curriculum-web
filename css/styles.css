@@ -198,6 +198,7 @@ margin-top: 100px;
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
+    margin-top: 150px;
 }
 
 .RPG-Java p{
@@ -241,6 +242,34 @@ margin-top: 100px;
     border: none;
     border-radius: 5px;
    
+}
+
+.boton-plataforma-videos{
+    width: 100px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+
+.porfolio-plataforma-videos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.porfolio-plataforma-videos img{
+    width: 225px;
+    height: 225px;
 }
 
 @media(max-width: 440px){
